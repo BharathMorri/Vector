@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.3.6)  24 JUN 2023 05:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.3.6)  26 JUN 2023 06:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,11 +242,6 @@ Package gensymb Warning: Not defining \micro.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 15.
  (./tabel.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 29--38
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
@@ -256,15 +251,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figs.pdf, id=17, 462.52798pt x 346.89601pt>
+<figs.pdf, id=1, 462.52798pt x 346.89601pt>
 File: figs.pdf Graphic file (type pdf)
 <use figs.pdf>
-Package pdftex.def Info: figs.pdf  used on input line 60.
+Package pdftex.def Info: figs.pdf  used on input line 62.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
- [2 <./figs.pdf>]
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figs.pdf>]
 (./vec.aux) ) 
 Here is how much of TeX's memory you used:
  3027 strings out of 479304
@@ -285,7 +279,7 @@ onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb>
-Output written on vec.pdf (2 pages, 114288 bytes).
+Output written on vec.pdf (2 pages, 114257 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

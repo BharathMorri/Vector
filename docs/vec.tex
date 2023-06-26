@@ -18,25 +18,25 @@
 \end{center}
 \section{Exercise 11.2}
 Q5.Construct a right triangle whose base is 12$cm$ and sum of its hypotenuse and other side is 18$cm$ \\
-\textbf{Solution:}\\
+\textbf{Solution:}
 Let $\vec{A}$,$\vec{B}$ and $\vec{C}$ are the vertices of the right triangle with coordinates.
 Given $BC=12cm$(base).So the coordinates of vertices $\vec{B}$,$\vec{C}$ are:
-\begin{center}
+\begin{align}
 {
-$\vec{B} =\myvec{0\\0}$,$\vec{C} =\myvec{12\\0}$
+\vec{B} =\myvec{0\\0},\vec{C} =\myvec{12\\0}
 }
-\end{center}
-Also given $\angle{B}=90^0$, so by finding the coordinates of the other side we can form a required triangle. \\
- The input parameters for this construction are\\
+\end{align}
+Also given $\angle{B}=90\degree$, so by finding the coordinates of the other side we can form a required triangle. \\
+ The input parameters for this construction are
  \begin{table}[h]
    \centering
    \input{./tabel.tex}
    \caption{Parameters}
    \label{tab:Table1}
 \end{table}\\
-Caluclating Other Coordinate:\\
+Caluclating Other Coordinate:
   \begin{align}
-   \vec{A} = c\myvec{\cos{B}\\\sin{B}}
+   \vec{A} = c\myvec{\cos{B} \\ \sin{B}}
    \end{align}
 We know that\\
 \begin{align}  
@@ -45,16 +45,18 @@ We know that\\
   \begin{align}
   c = 5
   \end{align}  
-The vertices of $\triangle$ $ABC$ are \\
+The vertices of $\triangle ABC$ are \\
 \begin{align}
 \vec{A} = 5\myvec{\cos 90\degree\\\sin 90\degree}
   = \myvec{0\\5}
 \end{align}
 \begin{align}
- \vec{B} = \myvec{0\\0}\\
+ \vec{B} = \myvec{0\\0}
+\end{align}
+\begin{align}
  \vec{C} = \myvec{12\\0}
  \end{align}        
-Construction: \\
+Construction: 
 \begin{figure}[h]
  \begin{center}
   \includegraphics[width=\columnwidth]{figs.pdf}
