@@ -25,7 +25,7 @@ theta =90* np.pi/180
 a=12
 k=18
 e2=np.array(([0,1]))
-C=np.array([12,0])
+C=np.array([a,0])
 B=np.array([0,0])
 q1=np.array([[1,1],[-1,1]])
 q2=np.array(([a**2/k,k]))
@@ -64,7 +64,7 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('/sdcard/FWC/code/figs.pdf')
+plt.savefig('/sdcard/FWC/vector/figs.pdf')
 #subprocess.run(shlex.split("termux-open  /sdcard/FWC/matrices/matrix.pdf"))
 #else
 #plt.show()
