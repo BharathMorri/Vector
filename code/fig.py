@@ -30,8 +30,8 @@ B=np.array([0,0])
 q1=np.array([[1,1],[-1,1]])
 q2=np.array(([a**2/k,k]))
 q=q1@q2
-b=1/(2*(1-(a*np.cos(theta)/k)))*(e2.T)@q
-A=np.array(([b*np.cos(theta),b*np.sin(theta)]))
+c=1/(2*(1-(a*np.cos(theta)/k)))*(e2.T)@q
+A=np.array(([c*np.cos(theta),c*np.sin(theta)]))
 print(A)
 l=(np.linalg.norm(B-A))
 m=(np.linalg.norm(A-C))                   
