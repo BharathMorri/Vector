@@ -19,6 +19,7 @@ double **createMat(int m,int n)
 {
  int i;
  double **a;
+//End the function for matrix creation	
  
  //Allocate memory to the pointer
 a = (double **)malloc(m * sizeof( *a));
