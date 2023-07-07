@@ -7,9 +7,9 @@
 int main()
 {
  // Declaring and initializing variables
- double a = 12, k = 18, **r, c;
- float cosine = 0;
- float sine = 1;
+ double a = 12, k = 18,theta = M_PI * 1/2 , **r, c;
+ float cosine = cos(theta);
+ float sine = sin(theta);
  double **e2, **q1, **q2, **q, **A;
 
  // Loading data from files into matrix e2,q1
