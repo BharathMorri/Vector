@@ -252,7 +252,8 @@ void save_C(double **a, int rows, int cols) {
 	    if (j < cols - 1) {
         //fprintf(fp, ", ");
        }
-     }                                                    fprintf(fp, "\n");
+     } 
+      fprintf(fp, "\n");
    }
    fclose(fp);
  }
@@ -269,7 +270,8 @@ void save_D(double **a, int rows, int cols) {
        if (j < cols - 1) {
          //fprintf(fp, ", ");
        }
-     }                                                    fprintf(fp, "\n");
+     }                                                    
+      fprintf(fp, "\n");
    }
    fclose(fp);
  }
