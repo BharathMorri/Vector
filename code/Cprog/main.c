@@ -7,8 +7,6 @@
 int main()
 {
  // Declaring and initializing variables
- double angle=90.0;
- double rad=radians(angle);
  double a = 12, k = 18, **r, c;
  float cosine = 0;
  float sine = 1;
