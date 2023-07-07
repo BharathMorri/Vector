@@ -290,6 +290,7 @@ double radians(double deg)
   return rad;
 }
 
+// Definition of the function for scalar multiplication of a matrix
 double **scalar_mul(double **A,char *str,int row,int col,double num)
 {
 int i,j;
